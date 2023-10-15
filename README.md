@@ -2,13 +2,18 @@
 
 embed lua script language for Go
 
-modified so can use ubuntu's lib directory directly
+forked so can use Ubuntu-like lib/include directory directly without modification
 
-requires `CGO_ENABLED=1`
+requires `CGO_ENABLED=1` (the default) and:
+```shell
+sudo apt install libluajit-5.1-2 libluajit-5.1-common libluajit-5.1-dev
+
+```
 
 go luajit glue,very very fast, support lua coroutine
 
 ## Demo
+
 easy to use: `go get -u -v github.com/kokizzu/go-lua@latest`
 
 ```go
