@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	glua "github.com/RyouZhang/go-lua"
+	glua "github.com/kokizzu/go-lua"
 )
 
 func test_sum(ctx context.Context, args ...interface{}) (interface{}, error) {

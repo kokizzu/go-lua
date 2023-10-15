@@ -1,3 +1,3 @@
-module github.com/RyouZhang/go-lua
+module github.com/kokizzu/go-lua
 
-go 1.16
+go 1.20

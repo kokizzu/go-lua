@@ -1,6 +1,7 @@
 # glua
 
 embed lua script language for Go
+modified so can use ubuntu's lib directory directly
 
 go luajit glue,very very fast, support lua coroutine
 
@@ -14,7 +15,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/RyouZhang/go-lua"
+	"github.com/kokizzu/go-lua"
 )
 
 func main() {
@@ -41,7 +42,7 @@ func main() {
 | | fib(35) | fibt(35) |  Language (Type)  |
 | :--- |    ---: |     ---: |  :---: |
 | [wassmer-go](https://github.com/wasmerio/wasmer-go) | `57ms` | `` | Wasm |
-| [**glua**](https://github.com/RyouZhang/go-lua) | `110ms` | `1.5ms` | Luajit(VM) |
+| [**glua**](https://github.com/kokizzu/go-lua) | `110ms` | `1.5ms` | Luajit(VM) |
 | [Tengo](https://github.com/d5/tengo) | `2,315ms` | `3ms` | Tengo (VM) |
 | [go-lua](https://github.com/Shopify/go-lua) | `4,028ms` | `3ms` | Lua (VM) |
 | [GopherLua](https://github.com/yuin/gopher-lua) | `4,409ms` | `3ms` | Lua (VM) |
