@@ -2,7 +2,7 @@
 
 embed lua script language for Go
 
-forked so can use Ubuntu-like lib/include directory directly without modification
+**forked** so can use Ubuntu-like lib/include directory directly without modification
 
 requires `CGO_ENABLED=1` (the default) and:
 ```shell
@@ -10,7 +10,7 @@ sudo apt install libluajit-5.1-2 libluajit-5.1-common libluajit-5.1-dev
 
 ```
 
-go luajit glue,very very fast, support lua coroutine
+go luajit glue, **blazing fast**, support lua coroutine
 
 ## Demo
 
